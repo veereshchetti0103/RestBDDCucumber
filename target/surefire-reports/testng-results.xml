@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testng Cucumber Suite" duration-ms="41493" started-at="2020-08-16T00:37:38 IST" finished-at="2020-08-16T00:38:20 IST">
+    <groups>
+    </groups>
+    <test name="API Test" duration-ms="41493" started-at="2020-08-16T00:37:38 IST" finished-at="2020-08-16T00:38:20 IST">
+      <class name="runner.APITestRunner">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:runner.APITestRunner@25bbe1b6]" name="beforeSuite" is-config="true" duration-ms="637" started-at="2020-08-16T00:37:38 IST" finished-at="2020-08-16T00:37:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.APITestRunner@25bbe1b6]" name="setUpClass" is-config="true" duration-ms="444" started-at="2020-08-16T00:37:38 IST" finished-at="2020-08-16T00:37:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="features(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.APITestRunner@25bbe1b6]" name="features" duration-ms="33065" started-at="2020-08-16T00:37:39 IST" data-provider="features" finished-at="2020-08-16T00:38:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify GET operations using REST-assured]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- features -->
+        <test-method status="PASS" signature="features(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.APITestRunner@25bbe1b6]" name="features" duration-ms="7244" started-at="2020-08-16T00:38:12 IST" data-provider="features" finished-at="2020-08-16T00:38:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify Post operations using REST-assured]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- features -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.APITestRunner@25bbe1b6]" name="tearDownClass" is-config="true" duration-ms="509" started-at="2020-08-16T00:38:19 IST" finished-at="2020-08-16T00:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:runner.APITestRunner@25bbe1b6]" name="aftersuite" is-config="true" duration-ms="691" started-at="2020-08-16T00:38:20 IST" finished-at="2020-08-16T00:38:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- runner.APITestRunner -->
+    </test> <!-- API Test -->
+  </suite> <!-- Testng Cucumber Suite -->
+</testng-results>

@@ -1,0 +1,409 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8024874369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.intializetest(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify get operation",
+        "description": "",
+        "id": "verify-get-operations-using-rest-assured;verify-get-operation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3133555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16588818103,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform GET operation for \"/stations\" with appid \"GetStation01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/stations",
+                  "offset": 29
+                },
+                {
+                  "val": "GetStation01",
+                  "offset": 52
+                }
+              ],
+              "location": "GetPostStepDef.iPerformGETOperationForWithAppid(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19491067713,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the station response values",
+            "match": {
+              "location": "GetPostStepDef.verifyTheStationResponseValues()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GetStation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6322624,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.intializetest(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify get operation",
+        "description": "",
+        "id": "verify-get-operations-using-rest-assured;verify-get-operation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 73709,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 765641648,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform GET operation for \"/stations\" with appid \"GetStation02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/stations",
+                  "offset": 29
+                },
+                {
+                  "val": "GetStation02",
+                  "offset": 52
+                }
+              ],
+              "location": "GetPostStepDef.iPerformGETOperationForWithAppid(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104741059,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the station response values",
+            "match": {
+              "location": "GetPostStepDef.verifyTheStationResponseValues()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@GetStation"
+          }
+        ]
+      }
+    ],
+    "name": "Verify GET operations using REST-assured",
+    "description": "",
+    "id": "verify-get-operations-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "GetOperation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GetStation"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3352815,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.intializetest(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Successfully register two stations with post operation",
+        "description": "",
+        "id": "verify-post-operations-using-rest-assured;successfully-register-two-stations-with-post-operation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 201066,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3881360645,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform POST operation for \"/stations\" with appid \"RegisterStation01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/stations",
+                  "offset": 30
+                },
+                {
+                  "val": "RegisterStation01",
+                  "offset": 53
+                }
+              ],
+              "location": "GetPostStepDef.iPerformPOSTOperationForWithAppid(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 866311,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the reponse status code",
+            "match": {
+              "location": "GetPostStepDef.verifyTheReponseStatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@RegisterStation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6831587,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.intializetest(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Successfully register two stations with post operation",
+        "description": "",
+        "id": "verify-post-operations-using-rest-assured;successfully-register-two-stations-with-post-operation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 202466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 710904042,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I perform POST operation for \"/stations\" with appid \"RegisterStation02\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/stations",
+                  "offset": 30
+                },
+                {
+                  "val": "RegisterStation02",
+                  "offset": 53
+                }
+              ],
+              "location": "GetPostStepDef.iPerformPOSTOperationForWithAppid(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 769744,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the reponse status code",
+            "match": {
+              "location": "GetPostStepDef.verifyTheReponseStatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@RegisterStation"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6437386,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.intializetest(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Register station without and API key",
+        "description": "",
+        "id": "verify-post-operations-using-rest-assured;register-station-without-and-api-key;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 97034,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestInitialize.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 401624485,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I perform POST operation for \"/stations\" with appid \"RegisterWithoutKey01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/stations",
+                  "offset": 30
+                },
+                {
+                  "val": "RegisterWithoutKey01",
+                  "offset": 53
+                }
+              ],
+              "location": "GetPostStepDef.iPerformPOSTOperationForWithAppid(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 504299,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify the reponse status code",
+            "match": {
+              "location": "GetPostStepDef.verifyTheReponseStatusCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@RegisterStation"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Post operations using REST-assured",
+    "description": "",
+    "id": "verify-post-operations-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "PostOperation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@RegisterStation"
+      }
+    ]
+  }
+]
