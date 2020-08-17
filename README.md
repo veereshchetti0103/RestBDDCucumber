@@ -20,4 +20,4 @@ From Command line :
 1. Navigate to project location  and then execute 'mvn clean test'
 
 Where to find the test execution Report?
-Test execution report will be generated in the extent report format in the project location under 'ExtentReport' folder.
+1.Test execution report will be generated in the extent report format in the project location under 'ExtentReport' folder.
