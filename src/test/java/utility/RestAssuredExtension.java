@@ -16,7 +16,7 @@ public class RestAssuredExtension extends GeneralUtils {
 
     public RestAssuredExtension() {
         RequestSpecBuilder builder = new RequestSpecBuilder();
-        builder.setBaseUri("https://api.openweathermap.org/data/3.0");
+        builder.setBaseUri(readProperties().getProperty("baseuri"));
         builder.setContentType(ContentType.JSON);
         request = RestAssured.given().spec(builder.build());
     }

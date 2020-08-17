@@ -2,7 +2,7 @@
 Feature: Verify Post operations using REST-assured
 
 
-  Scenario Outline: Successfully register two stations with post operation
+  Scenario Outline: Scenario_2 - Successfully register two stations and vaidate the response code as 201
     Given I perform POST operation for "/stations" with appid "<ScenarioName>"
     Then verify the reponse status code
 
@@ -12,7 +12,7 @@ Feature: Verify Post operations using REST-assured
       | RegisterStation02 |
 
 
-  Scenario Outline: Register station without and API key
+  Scenario Outline: Scenario_1 - Validate that attempt to register a weather station without an API Key will return status code as 401
     Given I perform POST operation for "/stations" with appid "<ScenarioName>"
     Then verify the reponse status code
 
